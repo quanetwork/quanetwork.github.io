@@ -1,121 +1,72 @@
 <!DOCTYPE html>
 <html>
-    
-    <head>
+<!------------------------------------------------------------------------- HEAD -------------------------------------------------------------------------->
+<head>
         <meta charset="utf-8"/>
-        <title>Physics and Quantum Technology Team</title>
+        <title>Moroccan Network of Quantum Information</title>  
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         
-        <!-- Font Awesome Icons -->
-        <link rel="stylesheet" href="css/font-awesome.min.css"/>
-        <link rel="stylesheet" href="css/app.css">  
+        <!-- Font Awesome Icons 
+        <link rel="stylesheet" href="css/font-awesome.min.css"/>-->
         
         <!-- Bootstrap -->
-        <link href="css/bootstrap.css" rel="stylesheet"/>
-  	  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-        <script src="js/jquery.min.js"></script>
-        <!-- Include all compiled plugins (below), or include individual files as needed -->
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/menucollapse.js"></script>
-        <script type="text/javascript" src="js/custom.js"></script>
-        <link href="./favicon.ico" rel="icon">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
-
-
-
+  	<script type="text/javascript" async 
+    	src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=default"> 
+	</script> 
+  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
 body {
+  margin: 0;
+  background-color: #f1f1f1;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.flip-card {
-  background-color: transparent;
-  width: 150px;
-  height: 150px;
-  perspective: 1000px;
+#navbar {
+  background-color: #7d4de5;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: block;
+  transition: top 0.3s;
 }
 
-.flip-card-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
+#navbar a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
   text-align: center;
-  transition: transform 0.6s;
-  transform-style: preserve-3d;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  padding: 15px;
+  text-decoration: none;
+  font-size: 17px;
 }
 
-.flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
-}
-
-.flip-card-front, .flip-card-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-}
-
-.flip-card-front {
-  background-color: #bbb;
+#navbar a:hover {
+  background-color: #ddd;
   color: black;
 }
-
-.flip-card-back {
-  background-color: white;
-  color: white;
-  transform: rotateY(180deg);
-}
 </style>
-<!-- STYLES -->
 </head>
 
 
 
-                                                                        <!-- BODY -->
+<!------------------------------------------------------------------------- BODY -------------------------------------------------------------------------->
 
 
 <body class="index">
- <!-- Navigation -->
+<!-- Navigation -->
 <nav class="navbar navbar-default navbar-fixed-top">
-<div class="container-fluid">
-<!-- Brand and toggle get grouped for better mobile display -->
+
+
+<div id="navbar">
+<left>
 <div class="navbar-header">
-<span><a href="#"><img border="0" width="90" src="images/logo2.png"/></a></span>
+<span><a href="#"><img border="0" width="40" src="images/logo2.png"/></a></span>
+</left>
 </div>
-                
-<!-- Collect the nav links, forms, and other content for toggling -->
-<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-<ul class="nav navbar-nav navbar-right">
-
-<li><a  href="index.html">HOME</a></li>	
-
-<li class="dropdown">
-
-<a class="dropdown-toggle" data-toggle="dropdown" href="#">NETWORK<span class="caret"></span></a>
-
-<ul class="dropdown-menu">
-<li><a href="lphe.html">LHEP-MS (QIPT)| RABAT</a></li>
-<li><a href="benmsick.html">QPA-MS, Ben Msik| CASABLANCA</a></li>
-<li><a href="ainchock.html">LHE-CMP (QIT), Aïn Chock| CASABLANCA</a></li>
-<li><a href="kenitra.html">QP&IPT| KENITRA</a></li>
-<li><a href="elhoceima.html">CrypTeam| EL-HOCEIMA</a></li>
-<li><a href="agadir.html">MRQTI Team| AGADIR</a></li>
-<li><a href="benimellal.html">IRLST (FP)| BENI MELLAL</a></li>
-<li><a href="eljadida.html">QIT| ELJADIDA</a></li>
-<li><a href="meknes.html">QCST| MEKNES</a></li>
-</ul>
-
-<li><a  href="research.html">RESEARCH</a></li>
-<li><a  href="publications.html">PUBLICATIONS</a></li>
-<li><a  href="workshops.html">WORKSHOPS</a></li>
-<li><a  href="contact.html">CONTACT</a></li>
-<li><a  href=""></a></li>
-<li><a  href=""></a></li>
-
-</ul>
+  <a href="#home">Home</a>
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+</div>
 </nav>
 
 <br>
@@ -123,46 +74,33 @@ body {
 <br>
 <br>
 <br>
+<!---------------------------------------------------------------------- CONTENT-BODY----------------------------------------------------------------------->
+
+
+
+
+
+
+<section>
+<div class="container lead">
+<div class="allshow" style="display:yes;">
 
 <center>
-<img src="images/Logo_UHIIC.png" style="float: center; width: 15%; margin-right: 1%; margin-bottom: 0.5em;" >
-<h3>Hassan II University, Casablanca</h3>
-<h3>Physics and Quantum Technology Team, LPMC, Faculty of Science Ben M’sik</h3> 
-<hr class="new5">
-<hr class="new4">
+<h4 style="background-color:yellow; border:5px solid red; font-family:verdana"">Lorem ipsum dolor dummy text sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
+Lorem ipsum dolor dummy text sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor dummy text sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
-
-
-
-
-
-
-
-
-<div class="row">
-<img class="circleImage" src="people/casablanca/Mohamed-Bennai.jpg">
-<p ><strong>Mohamed Bennai</strong></p> 
-<p>Faculty of Science Ben M’sik, Hassan II University, Casablanca, Morocco</p>
-<a href="mailto:mdbennai@yahoo.fr" class="social"><i class="fa fa-envelope" aria-hidden="true"></i></a>
-<a href="https://www.researchgate.net/profile/Mohamed-Bennai" class="social"><i class="fa fa-graduation-cap"></i></a>
-</div>
-      
-
-
-      
-<center>
-<h3 style="background-color:white; border:1px solid gray; font-family:verdana">Group professors and researchers</h3>
-<br>
-<h5 style="background-color:yellow; border:1px solid gray; font-family:verdana">To be updated soon!</h5>
+Lorem ipsum dolor dummy text sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</h4>
 </center>
-
-<hr class="new4">
-
-
+<hr class="new5">
+</div> 
+</div> 
+</section>
 
 
 </body>        
+
+<!------------------------------------------------------------------------- FOOTER -------------------------------------------------------------------------->
 <footer>
 <small>
 <center>
@@ -170,5 +108,4 @@ body {
 <script type="text/javascript" src="js/viewer.min.js"></script></center>
 </small>
 </footer>
-<hr>
 </html>
