@@ -107,7 +107,6 @@
 <br>
 <br>
 <br>
-<br>
 <!---------------------------------------------------------------------- CONTENT-BODY----------------------------------------------------------------------->
 
 
@@ -129,22 +128,28 @@
 
 
 <style>
-.BorderColorChangeElement {
-  	animation: BorderColorChange 1s ease-out 0s infinite alternate none running;
+.btn {
+  border: none;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
 }
-@keyframes BorderColorChange{
-  	0%  { border: 10px solid #ffc0cb;}
-  	100%  { border: 10px solid #ff69b4;}
-}
-@keyframes colorChange{
-  0%  { color: #8BC34A;}
-  25%  { color: #03A9F4;}
-  50%  { color: #FF5722;}
-  100%{ color: #607D8B;}
-}
-.titleAnim119 {
-  animation: colorChange 3.9s ease-out 0s infinite alternate none running;
-}
+
+.success {background-color: #04AA6D;} /* Green */
+.success:hover {background-color: #46a049;}
+
+.info {background-color: #2196F3;} /* Blue */
+.info:hover {background: #0b7dda;}
+
+.warning {background-color: #ff9800;} /* Orange */
+.warning:hover {background: #e68a00;}
+
+.danger {background-color: #f44336;} /* Red */ 
+.danger:hover {background: #da190b;}
+
+.default {background-color: #e7e7e7; color: black;} /* Gray */ 
+.default:hover {background: #ddd;}
 </style>
 
 <center>
@@ -153,6 +158,19 @@
 <hr class="new2">
 </center>
 
+L'inscription et la soumission sont obligatoires pour les participants qui souhaitent présenter leur travail. Les propositions pourront aborder tous les sujets en lien avec les thématiques de la rencontre. Pour proposer une communication, préparer un résumé et le soumettre via le formulaire d'inscription ci-dessous: 
+
+<hr class="new4">
+<center>
+<button class="btn danger" onclick="window.location.href='https://forms.gle/3ujuQYCPKWTXuB7p7'">Inscription</button>
+</center>
+<hr class="new4">
+<br>
+<br>
+
+<center>
+<img width="912" height="1912" src="./images/Agadir.jpg" alt="" srcset="./images/Agadir.jpg" sizes="(max-width: 212px) 100vw, 212px">
+</center>
 
 <center>
 <center>
@@ -302,23 +320,13 @@ Dr. Driss Aoun, FS, Agadir/
 </center>
 
 
-<center>
-<img width="912" height="1912" src="./images/Agadir.jpg" alt="" srcset="./images/Agadir.jpg" sizes="(max-width: 212px) 100vw, 212px">
-</center>
 
 <br>
 <br>
 
 
 
-L'inscription et la soumission sont obligatoires pour les participants qui souhaitent présenter leur travail. Les propositions pourront aborder tous les sujets en lien avec les thématiques de la rencontre. Pour proposer une communication, préparer un résumé et le soumettre via le formulaire d'inscription ci-dessous: 
-<hr class="new5">
-<center>
-<button onclick="window.location.href='https://forms.gle/3ujuQYCPKWTXuB7p7'">Fill form</button>
-</center>
-<hr class="new5">
-<br>
-<br>
+
 </section>
 
 </body>        
